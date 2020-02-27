@@ -1,0 +1,37 @@
+html {
+  display: flex;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  font: normal 12pt sans-serif;
+}
+
+body > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+body > div > div {
+  align-items: center;
+  display: flex;
+  height: 2em;
+  margin: 0 1em;
+}
+
+body > div > div > span {
+  flex: 1;
+  font-weight: bold;
+}
+
+label {
+  margin: 0 1ex;
+}
+
+textarea {
+  flex: 1;
+  resize: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Data URI</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <span>Source</span>
+        Example SVG icon courtesy of
+        &nbsp;
+        <a href="https://www.freepik.com">Freepik</a>.
+      </div>
+      <textarea id="sourceTextArea"></textarea>
+    </div>
+    <div>
+      <div>
+        <span>Result</span>
+        <label>Type:</label>
+        <input id="typeInput" value="image/svg+xml" placeholder="MIME type" />
+        <label>Charset:</label>
+        <select id="charsetSelect">
+          <option selected>base64</option>
+          <option></option>
+          <option>utf8</option>
+        </select>
+        <label>Stride:</label>
+        <input type="number" min="0" value="76" id="strideInput" />
+        <label>'Hug':</label>
+        <input type="checkbox" checked id="hugInput" />
+      </div>
+      <textarea id="resultTextArea" readonly></textarea>
+    </div>
+  </body>
+</html>
