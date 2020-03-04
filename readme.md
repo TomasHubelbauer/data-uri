@@ -1,4 +1,4 @@
-# Data URI
+# [Data URI](https://tomashubelbauer.github.io/data-uri)
 
 A tool for generating Base64 data URIs.
 
